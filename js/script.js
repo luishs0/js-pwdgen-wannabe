@@ -8,4 +8,4 @@ let myFavoriteColor = prompt("Your favorite color");
 console.log(myFavoriteColor);
 
 
-document.write(`Your password is: ${myName}${mySurname}${myFavoriteColor}21`)
+document.getElementById("password").innerHTML = myName + mySurname + myFavoriteColor + "21";

@@ -1,0 +1,23 @@
+body {
+    background-image: url(../img/blue-sky-with-white-clouds-background-border-of-clouds-simple-cartoon-design-flat-style-illustration-free-vector.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: left;
+    height: 100vh;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+h1 {
+    border: 1px solid #193073;
+    padding: .5rem;
+    border-radius: 25px;
+    color: #193073;
+    background-color: #7df4ff;
+}
